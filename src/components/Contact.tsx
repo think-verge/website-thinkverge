@@ -111,7 +111,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-brand-light-green">Visit us</p>
-                    <p className="font-semibold">Bangalore, India</p>
+                    <p className="font-semibold">Delhi, India</p>
                   </div>
                 </div>
               </div>

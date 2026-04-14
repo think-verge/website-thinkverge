@@ -49,10 +49,12 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-gray-900 mb-6">Services</h4>
             <ul className="space-y-4">
-              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">AI Strategy</a></li>
-              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Custom LLMs</a></li>
-              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Data Engineering</a></li>
-              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">SaaS Development</a></li>
+              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Strategic Research &amp; Analysis</a></li>
+              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Data Structuring &amp; Analysis</a></li>
+              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Secure Chatbot Deployment</a></li>
+              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Autonomous Agent Creation</a></li>
+              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Computer Vision Solutions</a></li>
+              <li><a href="#" className="text-gray-500 hover:text-brand-green transition-colors">Managed Cloud Infrastructure</a></li>
             </ul>
           </div>
 

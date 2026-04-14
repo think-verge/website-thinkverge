@@ -6,7 +6,7 @@ export default function Hero() {
     { name: "Happy Model School", src: "/HMS.png" },
     { name: "OPHO TECH", src: "/Ophotech Logo.png" },
     { name: "Safe Trust", src: "/safetrust-logo.png", invert: true },
-    { name: "Urban Eats", src: "/Urber-eats.png" }
+    { name: "Urban Eats", src: "/Urber-eats.png" },
   ];
 
   return (
@@ -28,14 +28,20 @@ export default function Hero() {
           </span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-8 leading-[1.1]">
             Sovereign AI Infrastructure for <br />
-            <span className="text-brand-green">India’s Public Sector & Enterprises</span>
+            <span className="text-brand-green">
+              India’s Public Sector & Enterprises
+            </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-            We design, build, and deploy secure, autonomous Agentic systems that execute complex workflows.
+            We design, build, and deploy secure, autonomous Agentic systems that
+            execute complex workflows.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#contact" className="w-full sm:w-auto btn-primary text-lg px-8 py-4 flex items-center justify-center gap-2">
+            <a
+              href="#contact"
+              className="w-full sm:w-auto btn-primary text-lg px-8 py-4 flex items-center justify-center gap-2"
+            >
               Get a Technical Audit <ArrowRight size={20} />
             </a>
           </div>
@@ -49,15 +55,17 @@ export default function Hero() {
           className="mt-24 pt-12 border-t border-brand-border/10"
         >
           <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-10">
-            Trusted by industry leaders and national infrastructure
+            Trusted by industry leaders
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-14 opacity-70 grayscale">
             {trustedLogos.map((logo) => (
-              <img 
-                key={logo.name} 
-                src={logo.src} 
-                alt={`${logo.name} Logo`} 
-                className={`h-10 md:h-12 lg:h-14 w-auto max-w-[180px] object-contain ${logo.invert ? "invert" : ""}`}
+              <img
+                key={logo.name}
+                src={logo.src}
+                alt={`${logo.name} Logo`}
+                className={`h-10 md:h-12 lg:h-14 w-auto max-w-[180px] object-contain ${
+                  logo.invert ? "invert" : ""
+                }`}
                 referrerPolicy="no-referrer"
               />
             ))}
