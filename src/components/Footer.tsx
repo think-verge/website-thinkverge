@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Github, Instagram } from "lucide-react";
+import { Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -31,17 +31,8 @@ export default function Footer() {
               Empowering the next generation of businesses with intelligent AI solutions and scalable SaaS platforms.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-brand-bg flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-all">
+              <a href="https://www.linkedin.com/company/think-verge/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-bg flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-all">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-brand-bg flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-all">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-brand-bg flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-all">
-                <Github size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-brand-bg flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-all">
-                <Instagram size={20} />
               </a>
             </div>
           </div>
