@@ -19,7 +19,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2">
               <img 
-                src="/logo.svg" 
+                src="/ThinkVerge logo.png" 
                 alt="Think Verge Logo" 
                 className="h-10 w-auto"
                 onError={(e) => {

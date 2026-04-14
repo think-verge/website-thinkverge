@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <img 
-                src="/logo.svg" 
+                src="/ThinkVerge logo.png" 
                 alt="Think Verge Logo" 
                 className="h-8 w-auto"
                 onError={(e) => {
